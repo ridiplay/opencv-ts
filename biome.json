@@ -1,0 +1,20 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.4.0/schema.json",
+  "files": {
+    "ignore": ["src/opencv.cjs", "src/helper.ts", "testdata/*", "*.d.ts"]
+  },
+  "organizeImports": {
+    "enabled": true
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "lineWidth": 100
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
+    }
+  }
+}

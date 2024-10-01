@@ -370,14 +370,14 @@ declare module Mat {
          * @param i0 A 0-based row index.
          * @returns the specified matrix row.
          */
-        intPtr(i0: number): Int8Array;
+        intPtr(i0: number): Int32Array;
         /**
          * Returns a pointer to the specified matrix row.
          * @param row Index along the dimension 0
          * @param col Index along the dimension 1
          * @returns the specified matrix row.
          */
-        intPtr(row: number, col: number): Int8Array;
+        intPtr(row: number, col: number): Int32Array;
         /**
          * Returns a pointer to the specified matrix row.
          * @param i0 A 0-based row index.

@@ -226,7 +226,7 @@ declare module opencv {
          * @param type data type of the Mat.
          * @param array source data array.
          */
-        matFromArray(rows: number, cols: number, type: DataTypes, array: number[]): Mat;
+        matFromArray(rows: number, cols: number, type: DataTypes, array: number[] | TypedArray): Mat;
 
         /**
          * Function called when opencv is initialized
@@ -1542,7 +1542,7 @@ declare module opencv {
         findContours(
             image: Mat | MatVector,
             contours: MatVector,
-            hierarchy: Mat | MatVector,
+            hierarchy: Mat,
             mode: RetrievalModes,
             method: ContourApproximationModes
         ): void;

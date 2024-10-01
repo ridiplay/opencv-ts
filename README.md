@@ -1,3 +1,15 @@
+Fork of [theothergrantdavidson/opencv-ts](https://github.com/theothergrantdavidson/opencv-ts).
+
+Notable changes:
+* ~~Upgraded to OpenCV 4.9.0.~~
+  * Reverted back to the original version, since the new version was not working
+    on the Photoshop plugin. But renamed `opencv.js` to `opencv.cjs` to make it
+    work with Vite.
+* Fix wrong signatures.
+* Added simple unit test [opencv.test.ts](src/opencv.test.ts) to test usage.
+
+Original README:
+
 # opencv-ts
 Package for opencvjs in typescript (WIP), adding class and function definiitons progresssively.
 
