@@ -1771,6 +1771,7 @@ export {
     BackgroundSubtractorMOG2,
     TermCriteria,
     MatVector,
+    MorphShapes,
     RotatedRect,
     BorderTypes,
 };
